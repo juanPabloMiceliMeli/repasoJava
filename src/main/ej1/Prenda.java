@@ -1,4 +1,4 @@
-package main;
+package main.ej1;
 
 public class Prenda {
     private String marca;
@@ -8,6 +8,10 @@ public class Prenda {
         this.marca = marca;
         this.modelo = modelo;
     }
+
+    /************************************************
+     ***************SETTERS AND GETTERS***************
+     ************************************************/
 
     public String getMarca() {
         return marca;

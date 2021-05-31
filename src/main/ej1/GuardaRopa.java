@@ -1,4 +1,4 @@
-package main;
+package main.ej1;
 
 import java.util.*;
 
@@ -8,11 +8,11 @@ public class GuardaRopa {
 
     public GuardaRopa() {
         this.contador = 0;
-        this.prendas = new HashMap<Integer, List<Prenda>>();
+        this.prendas = new HashMap<>();
     }
 
     public Integer guardarPrendas(List<Prenda> listaDePrenda){
-        this.prendas.put(this.contador, listaDePrenda);
+        this.prendas.put(this.contador, new ArrayList<>(listaDePrenda));
         return contador++;
     }
 
